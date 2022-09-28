@@ -1,0 +1,394 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+ :root{
+    --fontesBolds: Passion One;
+    --background--subMenu:#e9e8e87e  ;
+ }
+ * {
+     transition: 0.2s;
+     text-decoration: none;
+
+ }
+
+ .body {
+     margin: 2%;
+ }
+
+ #logoDiv {
+     margin-top: 1%;
+     margin-left: 5%;
+ }
+
+ #logoDiv img {
+     cursor: pointer;
+ }
+
+
+ #topo {
+     z-index: 20;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     background-image: url("../assets/homepage_intro.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:100vh;
+     margin: 0 20px;
+ }
+
+ #topo:hover{
+    cursor: pointer;
+}
+#topo div{
+    height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+ h1 {
+     
+     font-family: var(--fontesBolds);
+     font-size: 180px;
+     
+ }
+
+ h2 {
+    font-family:var(--fontesBolds);
+     font-size: 30px;
+     margin-bottom: 30px;
+     margin-top: 50px; 
+     font-size: 3em;
+     font-weight: bold;
+ }
+
+ .textPadrao {
+
+     font-size: 30px;
+     margin: 3% 1% 0 5%;
+     font-size: 30px;
+     font-weight: bold;
+     font-family: var(--fontesBolds);
+
+ }
+
+ .textPadrao1 {
+     margin: 3% 1% 0 5%;
+     font-size: 20px;
+     color: rgba(90, 93, 95, 0.678);
+
+
+ }
+
+ .shown span {
+     font-size: 30px;
+     font-family: var(--fontesBolds);
+     color: black;
+
+
+ }
+
+ #textoPersonalizado {
+     border-bottom: 1px solid blue;
+     color: blue;
+     font-size: 30px;
+     cursor: pointer;
+     font-family: var(--fontesBolds);
+ }
+
+
+
+
+
+ .listaMenu {
+     margin: 10px 20px;
+     margin-right: 5%;
+     list-style: none;
+     position: relative;
+     display: flex;
+     z-index: 20;
+
+ }
+
+.material-symbols-outlined{
+    display: none;
+}
+
+.listaMenu2 {
+     border-left: 5px solid blue;
+     overflow-y: auto;
+     height: auto;
+     background-color: #fcfcfca6;
+     width: 30%;
+     padding: 0 20px;
+     position: absolute;
+     display: none;
+     border-radius: 3px;
+     list-style: none;
+     margin-top: 20px;
+     margin-left: -4%;
+
+ } 
+ 
+
+ .mostraBlock1 .listaMenu2 {
+    display: block;
+    background-color:var(--background--subMenu);
+}
+
+
+
+    #contacts {
+        margin-left: -60px;
+    }
+
+ .subMenu a {
+     display:block;
+     margin-top: 10%;
+     margin-left: 2%;
+     width: 90%;
+     border-bottom: 0.5px solid rgba(56, 55, 55, 0.178);
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: left;
+     color: rgb(0, 0, 0);
+
+ }
+
+
+ .listaMenu li a:hover {
+     border-radius: 5px;
+     background-color: #e4dede7e;
+     transition: .6s;
+ }
+
+ .quicksandFont {
+     border-bottom: 3px solid transparent;
+     padding: 10px 25px;
+     display: block;
+     font-family: Secular One;
+     font-weight: bold;
+     margin: 0 5px;
+
+ }
+ .quicksandFont ul li a {
+    color: rgb(73, 68, 68);
+
+}
+
+ .listaMenu:hover{
+    cursor: pointer;
+
+}
+.quicksandFont:hover{
+    background-color: rgb(234, 243, 243);
+    border-bottom: 3px solid blue;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+}
+
+.mostraBlock1 {
+    transition: .3s;
+
+    background-color: rgb(234, 243, 243);
+    border-bottom: 2px solid blue;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+}
+
+.mostraBlock1 ul li {
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+}
+
+
+ .rotation .material-symbols-outlined{
+     transform: rotate(90deg);
+ }
+
+
+ #divNave {
+     margin-bottom: 20px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+ .work {
+     color: blue;
+     border-bottom: 1px solid blue;
+    
+ }
+
+
+
+ .work1 img {
+    border-bottom: 5px solid transparent;
+     transition: .2s;
+     height: 50%;
+     width: 90%;
+
+ }
+
+ .work1 {
+     padding: 15px;
+     margin-top: 5%;
+     margin-bottom: 5%;
+ }
+
+
+ 
+/* .work1:hover .textPadrao, .textPadrao1 {
+    width: 90%;
+    border-bottom: .5px solid black;
+
+} */
+ .work1:hover img{
+     cursor: pointer;
+     filter:opacity(0.4) drop-shadow(0 0 0 blue);
+     border-bottom: 5px solid rgb(253, 0, 0);
+
+ }
+
+ /* .work1:hover img{
+    filter:  blur(2px);
+ } */
+
+ .work1:hover .tx {
+     font-weight: bold;
+     cursor: pointer;
+     color: rgba(248, 248, 248, 0.884);
+     display: block;
+     
+
+
+
+
+
+ }
+
+ .tx {
+     font-family: 'Nanum Myeongjo', serif;
+     font-size: 15em;
+     display: none;
+     position: absolute;
+
+ }
+
+ .tes {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+ }
+
+ .coluna1 {
+     position: relative;
+     margin-left: 1%;
+     padding: 0 20px 20px 20px;
+     display: flex;
+
+ }
+
+ .shown {
+     margin-top: 2%;
+
+ }
+
+ .textos {
+     margin-left: 3%;
+     padding: 55px;
+
+ }
+
+ .textos p {
+     color: rgb(94, 91, 91);
+     font-size: 25px;
+
+ }
+
+ div button {
+     display: none;
+
+ }
+
+
+ #fim {
+     font-weight: bold;
+     padding-bottom: 30px;
+     font-size: 40px;
+     text-align: center;
+
+     font-family:var(--fontesBolds);
+ }
+
+
+ .footer {
+     padding-top: 5%;
+     margin-top: 30px;
+     height: 300px;
+     background-color: blue;
+
+ }
+
+
+ .footerContainerPrincipal {
+     background-color: blue;
+
+ }
+
+ .footerContainaer {
+    
+     margin-right: 10%;
+     margin-left: 10%;
+     max-width: 90%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 3%;
+
+
+ }
+
+ .footerContainaer p {
+     color: white;
+ }
+
+ #blunes {
+     margin-top: 0;
+     font-weight: bold;
+     font-size: 25px;
+     font-family: Secular One;
+     color: white;
+ }
+
+
+ .footerImg {
+     display: flex;
+ }
+
+
+
+ .editImg {
+     margin: 0 4%;
+     width: 25px;
+     height: 25px;
+ }
+ 
+ .footerText p{
+    margin-top: 0;
+    
+}
+
+ .footerText span {
+     cursor: pointer;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+ }

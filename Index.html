@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+
+
+
+    <link rel="stylesheet" type="text/css" typehref="css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" typehref="css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" typehref="css" href="css/responsivo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="body">
+        <nav id="nav">
+            <div id="divNave">
+
+
+                <div id="logoDiv">
+                    <img src="./assets/logo.svg" />
+                </div>
+
+
+
+                <button id="btn" onclick="toggleMenu()" aria-expanded="false"><span id="hamburguer"></span> </button>
+
+
+                <ul class="listaMenu">
+
+                    <li class="quicksandFont work">Work<span
+                                class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+                        <ul class="listaMenu2">
+                            <li class="subMenu"><a href="#">iten 1</a></li>
+                            <li class="subMenu"><a href="#">iten 2</a></li>
+                            <li class="subMenu"><a href="#">iten 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="quicksandFont">Project<span
+                                class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+
+                        <ul class="listaMenu2">
+                            <li class="subMenu"><a href="#">Project 1</a></li>
+                            <li class="subMenu"><a href="#">Project 2</a></li>
+                            <li class="subMenu"><a href="#">Project 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="quicksandFont">Studio<span
+                                class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+                        <ul class="listaMenu2">
+                            <li class="subMenu"><a href="#">Studio 1</a></li>
+                            <li class="subMenu"><a href="#">Studio 2</a></li>
+                            <li class="subMenu"><a href="#">Studio 3</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="quicksandFont">Journal<span
+                                class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+                        <ul class="listaMenu2">
+                            <li class="subMenu"><a href="#">Journal 1</a></li>
+                            <li class="subMenu"><a href="#">Journal 2</a></li>
+                            <li class="subMenu"><a href="#">Journal 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="quicksandFont">Contact<span
+                                class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+
+                        <ul class="listaMenu2" id="contacts">
+                            <li class="subMenu"><a href="#">Contact 1</a></li>
+                            <li class="subMenu"><a href="#">Contact 2</a></li>
+                            <li class="subMenu"><a href="#">Contact 3</a></li>
+
+
+                        </ul>
+                    </li>
+
+
+
+
+                </ul>
+
+
+            </div>
+
+        </nav>
+
+        <header id="topo">
+            <div>
+
+                <h1>Your Brand <br> Matters</h1>
+
+            </div>
+        </header>
+
+
+
+
+
+
+
+        <section>
+            <div class="textos">
+
+
+                <h2>
+                    You´re in good company
+                </h2>
+                <p>Our work help startups to solve important problems and grow up.<br>
+                    We have many years experience and many interesting problems <br> which we solved.
+                </p>
+                <p class="shown"><span> Shown:</span> <span id="textoPersonalizado">All Projects</span></p>
+            </div>
+        </section>
+
+        <section id="AllProjects">
+
+            <div class="coluna1">
+                <div class="bloco2">
+                    <div class="work1">
+                        <div class="tes">
+
+
+                            <img src="./assets/work_1.png">
+                            <p class="tx">-></p>
+                        </div>
+
+
+                        <p class="textPadrao">Dom Casmurro</p>
+                        <p class="textPadrao1">Branding</p>
+                    </div>
+
+
+                    <div class="work1">
+                        <div class="tes">
+
+                            <img src="./assets/work_4.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Booklet with Sport Grids</p>
+                        <p class="textPadrao1">Art Direction</p>
+                    </div>
+
+
+
+
+
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_6.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Design 360 Magazine</p>
+                        <p class="textPadrao1">Typograpy</p>
+                    </div>
+
+
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_8.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Flyby</p>
+                        <p class="textPadrao1">Branding</p>
+                    </div>
+
+
+
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_10.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Precisiones Sobre La Incerteza</p>
+                        <p class="textPadrao1">Print</p>
+                    </div>
+                </div>
+
+
+                <div class="bloco1">
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_2.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Self-Cultivation for Designers</p>
+                        <p class="textPadrao1">Branding</p>
+                    </div>
+
+
+
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_3.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Catalogue - Voice & Vote</p>
+                        <p class="textPadrao1">Typograpy</p>
+                    </div>
+
+
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_5.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">The Rise of Andy Warhol - Robert Hughes</p>
+                        <p class="textPadrao1">Print</p>
+                    </div>
+
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_7.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Open Your Charisma</p>
+                        <p class="textPadrao1">Typograpy</p>
+                    </div>
+
+
+
+                    <div class="work1">
+                        <div class="tes">
+                            <img src="./assets/work_9.png">
+                            <p class="tx">-></p>
+                        </div>
+                        <p class="textPadrao">Guy Obserson - Sous La Peau Du Monde</p>
+                        <p class="textPadrao1">Art Direction - pint</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <div id="fim">
+            <p>Load More</p>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footerContainerPrincipal">
+            <div class="footerContainaer">
+
+
+                <div>
+                    <p id="blunes">BLUNES.</p>
+                </div>
+
+
+
+                <div class="footerText">
+                    <p>20 Hillside Street</p>
+                    <p>House 35</p>
+                    <p>London, UK</p>
+
+                    <p><span>hello@blunes.com</span></p>
+
+                    <p><span>522-666-9113</span></p>
+                </div>
+
+
+                <div class="footerImg">
+                    <img class="editImg" src="./assets/icons/facebook-logo.png">
+                    <img class="editImg" src="./assets/icons/twitter.png">
+                    <img class="editImg" src="./assets/icons/instagram.png">
+                    <img class="editImg" src="./assets/icons/variante-de-bola-de-basquete.png">
+                    <img class="editImg" src="./assets/icons/be-social-badge.png">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </footer>
+
+
+    <script src="./logicas.js"></script>
+
+
+</body>
+
+</html>
